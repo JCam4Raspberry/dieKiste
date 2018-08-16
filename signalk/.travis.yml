@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "lts/*"
+
+sudo: required
+
+services:
+  - docker
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - npm test

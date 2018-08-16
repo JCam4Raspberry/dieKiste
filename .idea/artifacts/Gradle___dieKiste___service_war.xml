@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : dieKiste : service.war">
+    <output-path>$PROJECT_DIR$/service/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="service.war">
+      <element id="artifact" artifact-name="Gradle : dieKiste : service.war (exploded)" />
+    </root>
+  </artifact>
+</component>

@@ -3,5 +3,6 @@
 .project
 .settings/
 .idea/
+.idea/**/*
 bin/
 build/

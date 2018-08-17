@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dieKiste.iml" filepath="$PROJECT_DIR$/.idea/modules/dieKiste.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dieKiste_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dieKiste_main.iml" group="dieKiste" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dieKiste_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dieKiste_test.iml" group="dieKiste" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service.iml" group="service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" group="service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" group="service" />

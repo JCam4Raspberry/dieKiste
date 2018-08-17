@@ -7,6 +7,9 @@
     <facet type="web" name="Web">
       <configuration>
         <webroots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../../service/src/main/java" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="web" name="Web Gradle : service.war">
@@ -22,10 +25,13 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../service/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../service/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../service/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.modelmapper.extensions:modelmapper-jackson:2.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.modelmapper:modelmapper:2.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.3.RELEASE" level="project" />

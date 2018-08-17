@@ -7,7 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28eb3e4f-6fae-4d99-a935-0576dffaee32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/signalk/signalk-server-node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/signalk/signalk-server-node/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_modelmapper_extensions_modelmapper_jackson_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_modelmapper_modelmapper_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Endpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Version.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/SignalKService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___dieKiste___service_war__exploded_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___dieKiste___service_war__exploded_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/out/production/classes/ch/diekiste/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/out/production/classes/ch/diekiste/model/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/out/production/classes/ch/diekiste/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/out/production/classes/ch/diekiste/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/Service.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -86,52 +107,65 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="6" />
-          <entry key="java" value="8" />
+          <entry key="gradle" value="9" />
+          <entry key="java" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="8" />
+          <entry key="Groovy" value="9" />
+          <entry key="JAVA" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="198" />
-          <entry key="java" value="418" />
+          <entry key="gradle" value="227" />
+          <entry key="java" value="1370" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="198" />
-          <entry key="JAVA" value="418" />
+          <entry key="Groovy" value="227" />
+          <entry key="JAVA" value="1370" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="254">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/Service.java">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/SignalKService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="302">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,14 +174,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/Main.java">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/ServerInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="180">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#327#343#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Version.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Endpoints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/ApplicationInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,13 +261,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+      <find>service/</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/signalk/signalk-server-node" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\larsh\.gradle\wrapper\dists\gradle-4.6-bin\4jp4stjndanmxuerzfseyb6wo\gradle-4.6" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\larsh\.gradle\wrapper\dists\gradle-4.6-all\bcst21l2brirad8k2ben1letg\gradle-4.6" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -658,174 +763,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/servicela">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':servicela'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':servicela'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':servicela'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':servicela'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':servicela'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':servicela'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':servicela'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':servicela'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':servicela'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicela" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/servicelaye">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':servicelaye'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':servicelaye'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':servicelaye'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':servicelaye'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':servicelaye'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':servicelaye'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':servicelaye'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':servicelaye'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':servicelaye'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelaye" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/servicelayer">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':servicelayer'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':servicelayer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':servicelayer'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':servicelayer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':servicelayer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':servicelayer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':servicelayer'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':servicelayer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':servicelayer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/servicelayer" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/signalk">
           <value>
             <list>
@@ -882,183 +819,15 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/signl">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':signl'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':signl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':signl'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':signl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':signl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':signl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':signl'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':signl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':signl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signl" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/signnal">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':signnal'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':signnal'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':signnal'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':signnal'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':signnal'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':signnal'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':signnal'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':signnal'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':signnal'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnal" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/signnalk">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':signnalk'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':signnalk'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':signnalk'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':signnalk'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':signnalk'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':signnalk'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':signnalk'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':signnalk'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':signnalk'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/signnalk" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="9205639995555" />
+        <entry key="$PROJECT_DIR$" value="7671625511911" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="33147364" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1389967582" />
-        <entry key="$PROJECT_DIR$/service/build.gradle" value="555379334" />
+        <entry key="$PROJECT_DIR$/service/build.gradle" value="2851942250" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="524815585" />
         <entry key="$PROJECT_DIR$/signalk/build.gradle" value="0" />
       </map>
@@ -1321,9 +1090,21 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/service/src/main/java/Service.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/Model.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/Main.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/ApplicationConfiguration.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/ApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/SignalKVersion.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/VersionInfo.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/SignalKInfo.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Info.java" />
         <option value="$PROJECT_DIR$/service/build.gradle" />
         <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/Service.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/Main.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Endpoint.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Endpoints.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Server.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/ServerInfo.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Version.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/SignalKService.java" />
       </list>
     </option>
   </component>
@@ -1341,45 +1122,44 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/signalk/signalk-server-node/node_modules" />
-    <handled-path value="$PROJECT_DIR$/signalk/signalk-server-node/test/plugin-test-config/node_modules" />
+    <handled-path value="$PROJECT_DIR$/signalk/node_modules" />
+    <handled-path value="$PROJECT_DIR$/signalk/test/plugin-test-config/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/plugin-config/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/Aside/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/Breadcrumb/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/Footer/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/Header/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/Sidebar/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/SidebarFooter/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/SidebarForm/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/SidebarHeader/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/components/SidebarMinimizer/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/containers/Full/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/views/Configuration/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/views/Dashboard/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/views/Webapps/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/packages/server-admin-ui/src/views/appstore/Apps/package.json" />
-      <path value="$PROJECT_DIR$/signalk/signalk-server-node/test/plugin-test-config/package.json" />
+      <path value="$PROJECT_DIR$/signalk/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/plugin-config/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/Aside/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/Breadcrumb/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/Footer/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/Header/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/Sidebar/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/SidebarFooter/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/SidebarForm/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/SidebarHeader/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/components/SidebarMinimizer/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/containers/Full/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/views/Configuration/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/views/Dashboard/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/views/Webapps/package.json" />
+      <path value="$PROJECT_DIR$/signalk/packages/server-admin-ui/src/views/appstore/Apps/package.json" />
+      <path value="$PROJECT_DIR$/signalk/test/plugin-test-config/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="20" />
+    <option name="x" value="96" />
+    <option name="y" value="41" />
     <option name="width" value="1400" />
     <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -1397,6 +1177,12 @@
               <item name="dieKiste" type="b2602c69:ProjectViewProjectNode" />
               <item name="dieKiste" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dieKiste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dieKiste" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1406,30 +1192,70 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="dieKiste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dieKiste" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dieKiste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dieKiste" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="diekiste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dieKiste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dieKiste" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="diekiste" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dieKiste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dieKiste" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="diekiste" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534279324656" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534537825468" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/service/src/main/java/ch/diekiste" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\larsh\workspace\dieKiste\signalk" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\larsh\workspace\dieKiste" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\larsh\workspace\dieKiste\signalk" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1444,7 +1270,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.dieKiste:service [war]">
+  <component name="RunManager" selected="Application.SignalKService">
+    <configuration name="SignalKService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.diekiste.service.SignalKService" />
+      <module name="service_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.diekiste.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dieKiste [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1517,18 +1356,40 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
+    <configuration name="Tomcat remote" type="Remote" factoryName="Remote">
+      <module name="service" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="60745" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60745" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch.diekiste.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/service" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Gradle : dieKiste : service.war">
           <settings>
-            <option name="CONTEXT_PATH" value="/service/v1" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_dieKiste" />
+        <option name="HTTP_PORT" value="8090" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1590,14 +1451,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Remote.Tomcat remote" />
+      <item itemvalue="Spring Boot.Main" />
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Gradle.dieKiste [build]" />
       <item itemvalue="Gradle.dieKiste [assemble]" />
       <item itemvalue="Gradle.dieKiste [jar]" />
       <item itemvalue="Gradle.dieKiste:service [war]" />
+      <item itemvalue="Application.SignalKService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SignalKService" />
         <item itemvalue="Gradle.dieKiste:service [war]" />
         <item itemvalue="Gradle.dieKiste [jar]" />
         <item itemvalue="Gradle.dieKiste [assemble]" />
@@ -1616,50 +1481,52 @@
       <option name="presentableId" value="Default" />
       <updated>1534270727336</updated>
       <workItem from="1534270729493" duration="7189000" />
+      <workItem from="1534526734946" duration="8164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7189000" />
+    <option name="totallyTimeSpent" value="15353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20476772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20721272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32847533" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3295964" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295964" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49663678" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80012226" visible="true" weight="0.49663678" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987775" weight="0.45179373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Gradle" visible="true" weight="0.27017114" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32847533" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3295964" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012225" side_tool="true" weight="0.39910313" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295964" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.2695599" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1668,88 +1535,245 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/signalk/signalk-server-node" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/Service.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/SignalKService.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/SignalKService.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>mapper.readValue(json.asText(), ServerInfo.class);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mapper.readValue(json.asText(), ServerInfo.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>root.path(&quot;endpoints&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>root.path(&quot;name&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Greeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Greeter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/signalk/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/Service.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.7.RELEASE/49134fcdaea19522741b2d940c4e5e5bee06c613/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="990" selection-start-line="990" selection-end-line="990" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.7.RELEASE/49134fcdaea19522741b2d940c4e5e5bee06c613/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.7.RELEASE/49134fcdaea19522741b2d940c4e5e5bee06c613/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="782" selection-start-line="782" selection-end-line="782" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.7.RELEASE/49134fcdaea19522741b2d940c4e5e5bee06c613/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/ApplicationConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/SignalKVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="238">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.7.RELEASE/8f92e4f93393dda9c11d4839a10c4aa66941870e/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="254">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/Main.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/ApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Endpoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/ServerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#327#343#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/model/signalk/version/Version.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ch/diekiste/service/SignalKService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

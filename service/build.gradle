@@ -24,6 +24,9 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+
     compile ("org.modelmapper.extensions:modelmapper-jackson:2.1.1")
     compile("org.springframework.boot:spring-boot-starter-web")
     testCompile('org.springframework.boot:spring-boot-starter-test')

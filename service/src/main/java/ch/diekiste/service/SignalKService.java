@@ -1,5 +1,6 @@
 package ch.diekiste.service;
 
+import ch.diekiste.exception.SignalKCommunicationException;
 import ch.diekiste.model.signalk.version.ServerInfo;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -13,11 +14,13 @@ import java.io.IOException;
 
 public class SignalKService {
 
+    private static final String NODE_JS_SERVER = "http://localhost:3000";
+
     public static void callSignalK() {
 
         RestTemplate restTemplate = new RestTemplate();
-        String fooResourceUrl = "http://localhost:3000/signalk";
-        ResponseEntity<String> response = restTemplate.getForEntity(fooResourceUrl , String.class);
+        String urlString = NODE_JS_SERVER + "/signalk";
+        ResponseEntity<String> response = restTemplate.getForEntity(urlString , String.class);
         System.out.println(response.getStatusCode());
         System.out.println(response.getBody());
 
@@ -40,7 +43,7 @@ public class SignalKService {
     }
 
     private static void mapToObject() {
-        String test = "{\"endpoints\":{\"v1\":{\"version\":\"1.4.3\",\"signalk-http\":\"http://localhost:3000/signalk/v1/api/\",\"signalk-ws\":\"ws://localhost:3000/signalk/v1/stream\",\"signalk-tcp\":\"tcp://localhost:3858\"}},\"server\":{\"id\":\"signalk-server-node\",\"version\":\"1.4.3\"}}";
+        String test = "{\"endpoints\":{\"v1\":{\"version\":\"1.4.3\",\"signalk-http\":\"" + NODE_JS_SERVER + "/signalk/v1/api/\",\"signalk-ws\":\"ws://localhost:3000/signalk/v1/stream\",\"signalk-tcp\":\"tcp://localhost:3858\"}},\"server\":{\"id\":\"signalk-server-node\",\"version\":\"1.4.3\"}}";
 
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -49,6 +52,22 @@ public class SignalKService {
             System.out.println("Info: " + serverInfo);
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
+        }
+    }
+
+    public static ServerInfo getServerInfo() throws SignalKCommunicationException {
+        RestTemplate restTemplate = new RestTemplate();
+        String fooResourceUrl = NODE_JS_SERVER + "/signalk";
+
+        ResponseEntity<String> response = restTemplate.getForEntity(fooResourceUrl , String.class);
+
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            ServerInfo serverInfo = mapper.readValue(response.getBody(),ServerInfo.class);
+            System.out.println("Fetched Info from Server");
+            return serverInfo;
+        } catch (IOException e) {
+            throw new SignalKCommunicationException("Could not read ServerInfo from SignalK Server", e);
         }
     }
 }

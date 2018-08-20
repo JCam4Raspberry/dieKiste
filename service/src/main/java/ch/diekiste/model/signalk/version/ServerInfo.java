@@ -48,6 +48,10 @@ public class ServerInfo {
         this.additionalProperties.put(name, value);
     }
 
+    public String getApiUrl() {
+        return endpoints.getV1().getSignalkhttp();
+    }
+
     @Override
     public String toString() {
         return "ServerInfo{" +
